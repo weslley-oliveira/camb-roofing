@@ -9,9 +9,9 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col  justify-center flex-1 px-4 sm:px-20 text-gray-700">
-        <h1 className="text-2xl font-bold flex flex-col ">
+        <h1 className="text-xl font-bold flex flex-col ">
           Uder 
-          Construction
+          Construction 
         </h1>
         <h1 className="text-6xl font-bold py-2">          
           <a className="text-yellow-600" href="https://cambroofing.co.uk">
@@ -31,9 +31,8 @@ export default function Home() {
 
       <footer className="text-gray-600 text-xs flex items-center justify-center w-full h-14 border-t">        
           Powered by{' '}
-          <a  className="font-mono p-2" href="https://weslleyoliveira.com/">Weslley Oliveira</a>         
+          <a  className="font-mono p-2 italic text-blue-800" href="https://weslleyoliveira.com/">Weslley Oliveira</a>         
       </footer>
     </div>
   )
 }
-

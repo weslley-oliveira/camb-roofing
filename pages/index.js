@@ -13,7 +13,7 @@ export default function Home() {
                 <div className="flex h-screen bg-black bg-opacity-50 flex-wrap content-center text-white">
                     <div className="px-4 py-20">                        
                         {/* <h1 className="text-5xl py-6 font-semibold uppercase">We building your dream</h1> */}                        
-                        <img className="w-full" src="/logo_3.png"/>
+                        <img className="w-36 mx-auto xs:w-full" src="/logo_3.png"/>
                         <p className="py-2 xs:py-6">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>                    
                     </div>
                     <div className="grid grid-cols-2 text-center uppercase w-full">

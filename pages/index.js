@@ -28,21 +28,21 @@ export default function Home() {
                     <h1 className="text-2xl text-white font-semibold uppercase"><span className="text-template-bg font-thin uppercase">Our</span> SERVICES</h1>                                                     
                 </div>  
                 <div className="grid grid-cols-6 px-4 py-10">              
-                    <div className="col-span-2 w-24 h-24 bg-template-bg rounded-full"/>   
+                    <div className="col-span-2 w-24 h-24 bg-white rounded-full"/>   
                     <div className="col-span-4">                    
                         <h1 className="text-white text-xl">Hot Melt Structural Waterproofing</h1>                    
                         <p className=" text-white text-opacity-70">Hot melt structural waterproofing is extremely robust and self healing, it is ideal for use beneath paved, ballast and green roof finishes. Guarantee periods up to 40 years can be offered.</p>                    
                     </div>
                 </div>                
                 <div className="grid grid-cols-6 px-4 pb-10">              
-                    <div className="col-span-2 w-24 h-24 bg-template-bg rounded-full"/>   
+                    <div className="col-span-2 w-24 h-24 bg-white rounded-full"/>   
                     <div className="col-span-4">                    
                         <h1 className="font-semibold text-white text-xl">Built-up Felt Roofing</h1>                    
                         <p className="font-semibold text-white text-opacity-70">Felt systems have been used for decades as waterproof coverings to residential and commercial buildings. Guarantee periods up to 25 years can be offered.</p>                    
                     </div>
                 </div>                
                 <div className="grid grid-cols-6 px-4 pb-10">              
-                    <div className="col-span-2 w-24 h-24 bg-template-bg rounded-full"/>   
+                    <div className="col-span-2 w-24 h-24 bg-white rounded-full"/>   
                     <div className="col-span-4">                    
                         <h1 className="font-semibold text-white text-xl">Hot Melt Structural Waterproofing</h1>                    
                         <p className="font-semibold text-white text-opacity-70">Donec porttitor turpis eu mi tempus facilisis. Maecenas id ullamcorper elit, quis tempus enim.</p>                    
@@ -80,9 +80,9 @@ export default function Home() {
 
             {/* About Us */}
             <section id="about" className="bg-template-bg py-10">
-                <h1 className="text-xl text-center pb-2 font-semibold text-template-blue-400 uppercase">Welcome to</h1>
+                <h1 className="text-xl text-center pb-2 font-semibold text-template-blue-400 uppercase">about us</h1>
                 <div className="flex justify-center">
-                    <div className="border-b-2 w-20 border-template-red"/>
+                    <div className="border-b w-20 border-template-red"/>
                 </div>                      
                 
                 <div className="flex justify-center py-10">                                               
@@ -101,10 +101,9 @@ export default function Home() {
                     <div className="border-b-2 w-20 border-template-red"/>
                 </div>                     
                     <h1 className="text-center font-semibold p-4">We are looking forward to start a project with you! </h1>                   
-                    <div className="p-4 flex flex-col text-sm gap-4">                   
-                        <h1><RoomIcon/> 121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</h1>                    
-                        <h1><PhoneIcon/> 1 (234) 567-8911 (234) 987-654</h1>                    
-                        <h1><EmailIcon/> email@email.com</h1> 
+                    <div className="p-4 flex flex-col text-sm gap-4">                 
+                        <h1><PhoneIcon/> +44 7988 170367</h1>                    
+                        <h1><EmailIcon/> office@https://www.cambroofing.co.uk/</h1> 
                     </div>                  
                 <Email/>
             </section>

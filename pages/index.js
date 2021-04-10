@@ -1,5 +1,4 @@
 import Layout from '../components/layout'
-import RoomIcon from '@material-ui/icons/Room';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
 import Email from '../components/email';
@@ -14,7 +13,7 @@ export default function Home() {
                     <div className="px-4 py-20">                        
                         {/* <h1 className="text-5xl py-6 font-semibold uppercase">We building your dream</h1> */}                        
                         <img className="w-36 mx-auto xs:w-full" src="/logo_3.png"/>
-                        <p className="py-2 xs:py-6">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>                    
+                        <p className="py-2 xs:py-6">Camb Roofing is a company with high experience in the waterproofing market. Over 4 years solving problems of infiltrations and leaks.</p>                    
                     </div>
                     <div className="grid grid-cols-2 text-center uppercase w-full">
                         <a href="#contact" className="bg-template-red rounded mr-2 ml-4 py-3">Get in touch</a>
@@ -30,7 +29,7 @@ export default function Home() {
                 <div className="grid grid-cols-6 px-4 py-10">              
                     <div className="flex flex-wrap col-span-2 content-center">
                         <div className="mx-auto item-center w-24 h-24 bg-white p-2 rounded-full">
-                            <img src="/icons/cold.svg" className="w-20 h-20 opacity-70"/>
+                            <img src="/icons/cold.svg" className="w-20 h-20"/>
                         </div>
                     </div>   
                     <div className="col-span-4">                    
@@ -41,7 +40,7 @@ export default function Home() {
                 <div className="grid grid-cols-6 px-4 py-10">              
                     <div className="flex flex-wrap col-span-2 content-center">
                         <div className="mx-auto item-center w-24 h-24 bg-white p-2 rounded-full">
-                            <img src="/icons/roof.svg" className="w-22 h-22 opacity-70 z"/>
+                            <img src="/icons/roof.svg" className="w-22 h-22"/>
                         </div>                         
                     </div>   
                     <div className="col-span-4">                    
@@ -52,7 +51,7 @@ export default function Home() {
                 <div className="grid grid-cols-6 px-4 py-10">              
                     <div className="flex flex-wrap col-span-2 content-center">
                         <div className="mx-auto item-center w-24 h-24 bg-white p-3 rounded-full">
-                            <img src="/icons/squeegee.svg" className="w-20 h-20 opacity-70"/>
+                            <img src="/icons/squeegee.svg" className="w-20 h-20"/>
                         </div>
                     </div>   
                     <div className="col-span-4">                    
@@ -112,7 +111,7 @@ export default function Home() {
             </section>
 
             {/* Get In Touch */}
-            <section id="contact" className="px-2 py-20 bg-template-blue-100">
+            <section id="contact" className="px-2 py-20 bg-template-blue-800">
                 <Email>
                     <h1 className="text-xl text-center pb-2 font-semibold  uppercase">Get In Touch</h1>
                     <div className="flex justify-center">

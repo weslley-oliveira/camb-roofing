@@ -1,7 +1,7 @@
 import Nav from '../components/nav'
 import Head from 'next/head'
 
-function layout() {
+function layout({ children }) {
     return (
         <>
             <Head>
@@ -18,9 +18,13 @@ function layout() {
                 <meta name="og:title" content="Camb Roofing" />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
-            <header className="fixed w-full bg-template-blue-800">
+            <header className="fixed w-full">
                 <Nav siteTitle="Camb Roofing"/>
             </header>
+            {children}
+            <footer className="bg-template-blue-800 text-center">                
+                <p className="text-white py-10 text-xs border-t  border-black opacity-100 border-opacity-30">Camb Roofing © 2021 Privacy Policy</p>
+            </footer> 
         </>
     )
 }

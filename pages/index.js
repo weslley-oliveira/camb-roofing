@@ -28,26 +28,40 @@ export default function Home() {
                     <h1 className="text-2xl text-white font-semibold uppercase"><span className="text-template-bg font-thin uppercase">Our</span> SERVICES</h1>                                                     
                 </div>  
                 <div className="grid grid-cols-6 px-4 py-10">              
-                    <div className="col-span-2 w-24 h-24 bg-white rounded-full"/>   
+                    <div className="flex flex-wrap col-span-2 content-center">
+                        <div className="mx-auto item-center w-24 h-24 bg-white p-2 rounded-full">
+                            <img src="/icons/cold.svg" className="w-20 h-20 opacity-70"/>
+                        </div>
+                    </div>   
                     <div className="col-span-4">                    
                         <h1 className="text-white text-xl">Hot Melt Structural Waterproofing</h1>                    
-                        <p className=" text-white text-opacity-70">Hot melt structural waterproofing is extremely robust and self healing, it is ideal for use beneath paved, ballast and green roof finishes. Guarantee periods up to 40 years can be offered.</p>                    
+                        <p className=" text-white text-opacity-70 text-sm">Hot melt structural waterproofing is extremely robust and self healing, it is ideal for use beneath paved, ballast and green roof finishes. Guarantee periods up to 40 years can be offered.</p>                    
                     </div>
-                </div>                
-                <div className="grid grid-cols-6 px-4 pb-10">              
-                    <div className="col-span-2 w-24 h-24 bg-white rounded-full"/>   
+                </div>              
+                <div className="grid grid-cols-6 px-4 py-10">              
+                    <div className="flex flex-wrap col-span-2 content-center">
+                        <div className="mx-auto item-center w-24 h-24 bg-white p-2 rounded-full">
+                            <img src="/icons/roof.svg" className="w-22 h-22 opacity-70 z"/>
+                        </div>                         
+                    </div>   
                     <div className="col-span-4">                    
-                        <h1 className="font-semibold text-white text-xl">Built-up Felt Roofing</h1>                    
-                        <p className="font-semibold text-white text-opacity-70">Felt systems have been used for decades as waterproof coverings to residential and commercial buildings. Guarantee periods up to 25 years can be offered.</p>                    
+                        <h1 className="text-white text-xl">Built-up Felt Roofing</h1>                    
+                        <p className=" text-white text-opacity-70 text-sm">Felt systems have been used for decades as waterproof coverings to residential and commercial buildings. Guarantee periods up to 25 years can be offered.</p>                    
                     </div>
-                </div>                
-                <div className="grid grid-cols-6 px-4 pb-10">              
-                    <div className="col-span-2 w-24 h-24 bg-white rounded-full"/>   
+                </div>              
+                <div className="grid grid-cols-6 px-4 py-10">              
+                    <div className="flex flex-wrap col-span-2 content-center">
+                        <div className="mx-auto item-center w-24 h-24 bg-white p-3 rounded-full">
+                            <img src="/icons/squeegee.svg" className="w-20 h-20 opacity-70"/>
+                        </div>
+                    </div>   
                     <div className="col-span-4">                    
-                        <h1 className="font-semibold text-white text-xl">Hot Melt Structural Waterproofing</h1>                    
-                        <p className="font-semibold text-white text-opacity-70">Donec porttitor turpis eu mi tempus facilisis. Maecenas id ullamcorper elit, quis tempus enim.</p>                    
+                        <h1 className="text-white text-xl">Cold Applied Liquids</h1>                    
+                        <p className=" text-white text-opacity-70 text-sm">Cold applied liquids are ideal for refurbishments by way of overlaying the existing roof coverings. Guarantee periods up to 25 years can be offered.</p>                    
                     </div>
-                </div>                
+                </div>              
+                            
+                        
             </section>
             {/* Portifolio*/}
             <section id="portfolio" className="bg-white py-10 px-4 text-template-blue-800">
@@ -55,21 +69,21 @@ export default function Home() {
                     <h1 className="text-2xl  font-semibold uppercase"><span className="text-template-blue-400 font-thin uppercase">Our</span> Portifolio</h1>                                                     
                 </div>  
                 <div className="flex flex-col py-10">              
-                    <img className="" src="/img.jpeg"/>   
+                    <img className="" src="/images/camb (1).jpeg"/>   
                     <div>                    
                         <h1 className="text-xl py-4 font-semibold">First Example</h1>                    
                         <p className="italic">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>                    
                     </div>
                 </div>              
                 <div className="flex flex-col py-10">              
-                    <img className="" src="/img-2.jpeg"/>   
+                    <img className="" src="/images/camb (4).jpeg"/>   
                     <div>                    
                         <h1 className="text-xl py-4 font-semibold">Second Example</h1>                    
                         <p className="italic">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>                    
                     </div>
                 </div>              
                 <div className="flex flex-col py-10">              
-                    <img className="" src="/img-3.jpeg"/>   
+                    <img className="" src="/images/camb (8).jpeg"/>   
                     <div>                    
                         <h1 className="text-xl py-4 font-semibold">Other Example</h1>                    
                         <p className="italic">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>                    
@@ -86,11 +100,14 @@ export default function Home() {
                 </div>                      
                 
                 <div className="flex justify-center py-10">                                               
-                    <img className="" src="/logo_2.png"/>                                        
+                    <img className="w-3/4" src="/logo_2.png"/>                                        
                 </div>                
                 <div className="px-4 text-template-blue-400">                    
-                    <p className="font-semibold pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida cursus eleifend. Nullam ornare sapien quis vulputate cursus. Vivamus vel pellentesque purus, sed dignissim elit. Maecenas ac augue metus. Suspendisse in elit nibh. Vestibulum in nibh risus. Phasellus ut cursus sem. Vestibulum feugiat eros lorem, vitae faucibus arcu aliquam ac. Sed tempor, arcu non sodales gravida, sapien dui iaculis felis, vel luctus sapien nisi non orci. Ut laoreet ante tellus, vel hendrerit lorem tincidunt sed. Etiam rhoncus euismod velit ac rutrum.</p>                    
-                    <p className="font-semibold ">Donec porttitor turpis eu mi tempus facilisis. Maecenas id ullamcorper elit, quis tempus enim. In dignissim dolor in accumsan tincidunt. Donec vel diam vitae risus elementum congue. Cras varius, enim vitae condimentum mattis, erat lacus.</p>                    
+                    <p className="font-semibold pb-2">Camb Roofing is a company with high experience in the waterproofing market. Over 4 years solving problems of infiltrations and leaks.</p>                    
+                    <p className="font-semibold pb-2">We solved your infiltration problem without changing the roof, eliminating the high temperature of the environment.</p>                    
+                    <p className="font-semibold pb-2">Camb Roofing has in its technical staff, workers with extensive experience in the area. Our employees are trained to work in buildings that are already inhabited or not.</p>                    
+                    <p className="font-semibold pb-2">Camb Roofing works in partnership with the largest companies that manufacture waterproofing products, which follow the standards for waterproofing products.</p>                    
+                    <p className="font-semibold">We are at your disposal to provide information about our services, answer questions, receive your suggestions and schedule inspections. Answering your email will be a great satisfaction for us.</p>                    
                 </div>                
             </section>
 

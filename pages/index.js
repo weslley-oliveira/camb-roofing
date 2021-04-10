@@ -13,8 +13,8 @@ export default function Home() {
                 <div className="flex h-screen bg-black bg-opacity-50 flex-wrap content-center text-white">
                     <div className="px-4 py-20">                        
                         {/* <h1 className="text-5xl py-6 font-semibold uppercase">We building your dream</h1> */}                        
-                        <img src="/logo_3.png"/>
-                        <p className="py-6">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>                    
+                        <img className="w-full" src="/logo_3.png"/>
+                        <p className="py-2 xs:py-6">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>                    
                     </div>
                     <div className="grid grid-cols-2 text-center uppercase w-full">
                         <a href="#contact" className="bg-template-red rounded mr-2 ml-4 py-3">Get in touch</a>

@@ -64,9 +64,9 @@ export default function Nav({siteTitle}) {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </div>
-              <h1 className="text-xl text-center">Welcome to</h1>
+              <h1 className="text-center">Welcome to</h1>
               <Link href="/">
-                <img onClick={handleLess} src="/logo_3.png"/>
+                <img className="h-1/3 mx-auto" onClick={handleLess} src="/logo_3.png"/>
               </Link>             
 
               <ul className="p-4">

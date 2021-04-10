@@ -13,6 +13,9 @@ module.exports = {
         'template-blue-100': '#A8DADC',
         'template-bg': '#F1FAEE',
       },
+      screens: {
+        'xs': '365px',
+      },
     },
   },
   variants: {

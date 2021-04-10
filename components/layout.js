@@ -9,7 +9,7 @@ function layout({ children }) {
                 <link rel="icon" href="/ico.png" />
                 <meta
                     name="description"
-                    content="Our website is currently undergoing scheduled maintenance. We should be working shortly. Thank you for your patience."
+                    content="Camb Roofing is a company with high experience in Roofing. Over 4 years solving problems of infiltrations and leaks."
                 />
                 <meta
                     property="og:image"

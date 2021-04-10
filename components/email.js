@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { Children, useEffect, useState } from 'react';
 import TextField from '@material-ui/core/TextField';
 import Alert from '../components/alert'
 
-function  Email(){       
+function  Email({children}){       
     
     const [ show, setShow ] = useState(false);
 
@@ -69,19 +69,12 @@ function  Email(){
     }
     
     return (
-      <div>          
-         
-          <form className="flex flex-col gap-3 rounded px-4 bg-template-red py-8" onSubmit={handleSubmit}>
-              <TextField id="filled-basic" label="Name" variant="filled" value={name} onChange={handleName}/>
-              <TextField id="filled-basic" label="Email" variant="filled" value={email} onChange={handleEmail}/>
-              <TextField
-              value={text} onChange={handleText}
-              id="filled-multiline-static"
-              label="Message"
-              multiline
-              rows={4}                    
-              variant="filled"
-              />   
+      <div className="rounded px-4 bg-template-red py-8 text-white">          
+          {children}
+          <form className="flex flex-col gap-3 border-t border-black pt-8" onSubmit={handleSubmit}>
+              <input className="w-full rounded-md p-4" placeholder="Name" value={name} onChange={handleName}/>
+              <input className="w-full rounded-md p-4" placeholder="Email"  value={email} onChange={handleEmail}/>
+              <textarea className="w-full rounded-md p-4" placeholder="Message" value={text} onChange={handleText}/>   
               <button className="bg-template-blue-800 rounded text-center py-4 mt-6 uppercase text-white">Send a message</button>
               {show && 
               <div className="py-2">                

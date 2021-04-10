@@ -95,17 +95,18 @@ export default function Home() {
             </section>
 
             {/* Get In Touch */}
-            <section id="contact" className="px-2 py-20 bg-template-blue-100 text-template-blue-800">
-                <h1 className="text-xl text-center pb-2 font-semibold  uppercase">Get In Touch</h1>
-                <div className="flex justify-center">
-                    <div className="border-b-2 w-20 border-template-red"/>
-                </div>                     
+            <section id="contact" className="px-2 py-20 bg-template-blue-100">
+                <Email>
+                    <h1 className="text-xl text-center pb-2 font-semibold  uppercase">Get In Touch</h1>
+                    <div className="flex justify-center">
+                        <div className="border-b-2 w-20 border-template-blue-800"/>
+                    </div>                     
                     <h1 className="text-center font-semibold p-4">We are looking forward to start a project with you! </h1>                   
                     <div className="p-4 flex flex-col text-sm gap-4">                 
                         <h1><PhoneIcon/> +44 7988 170367</h1>                    
-                        <h1><EmailIcon/> office@https://www.cambroofing.co.uk/</h1> 
+                        <h1><EmailIcon/> office@cambroofing.co.uk/</h1> 
                     </div>                  
-                <Email/>
+                </Email>    
             </section>
             
             </Layout>       

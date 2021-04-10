@@ -1,19 +1,19 @@
 import Layout from '../components/layout'
-import TextField from '@material-ui/core/TextField';
 import RoomIcon from '@material-ui/icons/Room';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
+import Email from '../components/email';
 
 
 export default function Home() {
     return (
         <div>
-            <Layout/>
+            <Layout>
             <main className="bg-roofing bg-no-repeat bg-cover">
                 <div className="flex h-screen bg-black bg-opacity-50 flex-wrap content-center text-white">
                     <div className="px-4 py-20">                        
-                        <h1 className="text-5xl py-6 font-semibold uppercase">We building your dream</h1>
-                        <div className="border-b-4 py-2 w-20 border-template-red"/>
+                        {/* <h1 className="text-5xl py-6 font-semibold uppercase">We building your dream</h1> */}                        
+                        <img src="/logo_3.png"/>
                         <p className="py-6">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>                    
                     </div>
                     <div className="grid grid-cols-2 text-center uppercase w-full">
@@ -105,24 +105,11 @@ export default function Home() {
                         <h1><RoomIcon/> 121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</h1>                    
                         <h1><PhoneIcon/> 1 (234) 567-8911 (234) 987-654</h1>                    
                         <h1><EmailIcon/> email@email.com</h1> 
-                    </div>  
-                <form className="flex flex-col gap-3 rounded px-4 bg-template-red py-8">
-                    <TextField id="filled-basic" label="Nome" variant="filled" />
-                    <TextField id="filled-basic" label="Email" variant="filled" />
-                    <TextField
-                    id="filled-multiline-static"
-                    label="Message"
-                    multiline
-                    rows={4}                    
-                    variant="filled"
-                    />   
-                    <a className="bg-template-blue-800 rounded text-center py-4 mt-6 uppercase text-white">Send a message</a>             
-                </form>
-            </section>  
-            <footer className="bg-template-blue-800 text-center">
-                
-                <p className="text-white py-10 text-xs border-t  border-black opacity-100 border-opacity-30">Camb Roofing © 2021 Privacy Policy</p>
-            </footer>        
+                    </div>                  
+                <Email/>
+            </section>
+            
+            </Layout>       
         </div>
     )
 }
